@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(127, 187, 255);
+}
+
+.form-container {
+    margin: auto;
+    margin-top: 150px;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0px 0px 2px white;
+}
+
+.form-container .left-container {
+    background: url('images/task.jpg');
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-right: 60px;
+}
+
+.left-container h1 {
+    position: relative;
+    margin: 90px 50px 10px 30px;
+
+}
+
+.left-container p {
+    margin: 0px 0px 0px 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.left-container .icon-div {
+    margin-top: 250px;
+}
+
+.left-container .icon-div i {
+    float: left;
+    margin-left: 15px;
+    color: white;
+}
+
+.left-container .icon-div span {
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+
+.right-container h3{
+   position: relative;
+   top:80px;
+}
+
+.right-container .content{
+    position: relative;
+    top: 100px;
+}
+ 
+.right-container .input-box {
+    height: 35px;
+    width: 300px;
+}
+
+.input-box {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0px solid;
+    border-style: none;
+    background-color: aliceblue;
+
+}
+
+.right-container .btn {
+    width: 160px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    border-style: none;
+    border-color: aliceblue;
+    background-color: rgb(77, 196, 136);
+    text-align: center;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
